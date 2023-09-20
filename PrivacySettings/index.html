@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Settings</title>
+    <style>
+        /* Basic CSS Styles */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #F5F5F5; /* Background color for the body */
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(239, 225, 225, 0.1); /* Box shadow for the container */
+            border-radius: 10px; /* Rounded corners for the container */
+        }
+
+        h2 {
+            font-size: 24px;
+            margin-bottom: 15px;
+        }
+
+        p {
+            margin-top: 15px;
+        }
+
+        /* Style for the checkboxes below */
+        .checkbox-label {
+            display: flex;
+            align-items: center;
+            margin-bottom: 10px;
+            background-color: white; /* White background for checkboxes */
+            padding: 10px;
+            border-radius: 5px; /* Rounded corners for checkboxes */
+        }
+
+        /* Style for the checkboxes above */
+        .white-checkbox {
+            background-color: white; /* White background for checkboxes */
+            padding: 10px;
+            border-radius: 5px; /* Rounded corners for checkboxes */
+        }
+
+        input[type="checkbox"] {
+            margin-right: 10px;
+        }
+
+        .red-button {
+            background-color: red;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+        }
+
+        .green-button {
+            background-color: green;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>Privacy Settings</h2>
+        <p>Select your details you prefer to share with medical personnels:</p>
+        
+        <!-- Style for checkboxes below -->
+        <label class="checkbox-label">
+            <input type="checkbox" checked> Share details
+        </label>
+
+        <label class="checkbox-label">
+            <input type="checkbox" checked> Personal details
+        </label>
+
+        <label class="checkbox-label">
+            <input type="checkbox" checked> Contact details
+        </label>
+
+        <label class="checkbox-label">
+            <input type="checkbox" checked> Medical records
+        </label>
+
+        <h2>Select medical personnel to share your details with:</h2>
+        
+        <label class="checkbox-label">
+            <input type="checkbox" checked> Medical Doctors
+        </label>
+
+        <label class="checkbox-label">
+            <input type="checkbox" checked> Pharmacists
+        </label>
+
+        <label class="checkbox-label">
+            <input type="checkbox" checked> Nurses
+        </label>
+
+        <label class="checkbox-label">
+            <input type="checkbox" checked> Dieticians/ Nutritionists
+        </label>
+
+        <label class="checkbox-label">
+            <input type="checkbox" checked> Medical Lab Scientist
+        </label>
+
+        <p>Request erasure of your personal data.</p>
+
+        <button class="red-button">Delete Account</button>
+        <button class="green-button">Save Changes</button>
+    </div>
+    <script src="privacy.js"></script> <!-- Include the external JavaScript file -->
+</body>
+</html>
+
+
+
